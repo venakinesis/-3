@@ -1,7 +1,7 @@
 
 export default defineConfig({
   plugins: [react()],
-  base: '/-3/', // Должно точно совпадать с названием репозитория
+  base: '/aa', // Должно точно совпадать с названием репозитория
   build: {
     outDir: 'dist',
     emptyOutDir: true,
